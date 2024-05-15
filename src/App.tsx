@@ -1,10 +1,14 @@
 import { FC } from 'react'
-import Pomodoro from './components/Pomodoro'
+import Pomodoro from './components/Pomodoro/Pomodoro'
+// import Header from './components/Pomodoro/Header'
 
 const  App: FC = () => {
   return (
     <div>
-      <Pomodoro></Pomodoro>
+      <div>
+        {/* <Header></Header> */}
+        <Pomodoro></Pomodoro>
+      </div>
     </div>
   )
 }
